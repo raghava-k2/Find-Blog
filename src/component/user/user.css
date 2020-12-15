@@ -1,0 +1,8 @@
+.user-detail-container .ui.header .sub.header {
+    text-transform: capitalize;
+}
+
+.user-detail-container .ui.header .sub.header .sub-header {
+    margin-top: 5px;
+    margin-left: 10px;
+}

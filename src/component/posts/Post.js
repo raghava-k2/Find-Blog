@@ -9,8 +9,8 @@ export function PostDetails({ details, onBackClick }) {
 
     useEffect(() => {
         async function fetchComments() {
-            const { data } = await axios.get('https://jsonplaceholder.typicode.com/comments');
-            setComments(data.filter(i => i.postId === details.id));
+            const { data } = await axios.get(`https://jsonplaceholder.typicode.com/comments?postId=${details.id}`);
+            setComments(data);
         }
         fetchComments();
     }, [details.id]);

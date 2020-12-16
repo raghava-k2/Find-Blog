@@ -63,7 +63,7 @@ export function UserProfile({ details, onBackClick }) {
                     </Header.Subheader>
                 </Header.Content>
             </Header>
-            <Button primary animated onClick={e => onBackClick()}>
+            <Button basic animated onClick={e => onBackClick()}>
                 <Button.Content visible>Back</Button.Content>
                 <Button.Content hidden>
                     <Icon name='arrow left' />

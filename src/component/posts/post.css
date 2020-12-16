@@ -1,0 +1,11 @@
+.post-details-container .ui.header .sub.header {
+    text-transform: capitalize;
+}
+
+.post-details-container .item>.content>.header {
+    text-transform: capitalize;
+}
+
+.post-details-container .item>.content>.description {
+    margin-top: 5px;
+}
